@@ -1,6 +1,33 @@
+body {
+
+background-color: gainsboro;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+    
+}
+
 h1 {
 
 background-color: green;
 color: yellow;
+text-align: center;
 
 }
+
+h2 {
+
+    
+    
+    }
+
+p.p1 {
+
+text-align: center;   
+    
+    }
+
+ {
+
+    
+    
+    }
