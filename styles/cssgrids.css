@@ -1,17 +1,16 @@
-h1.h1CSSgrid, h2.h2Cssgrid {
+h1.h1CSSgrid {
     background-color: green;
     color: black;
     text-align: center;
+
 }
 
-h2.h2Cssgrid {
+h2.h2Cssgrid, h2.h2Cssgrid2, h2.h2Cssgrid3 {
     background-color: yellowgreen;
     color: black;
-    text-align: center;
 }
 
 p.p1 {
     background-color: rgb(226, 252, 173);
     color: black;
-    text-align: center;
 }
