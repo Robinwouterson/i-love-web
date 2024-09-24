@@ -1,31 +1,23 @@
 body {
 
-background-color: gainsboro;
+background-color: yellowgreen;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: normal;
     
 }
 
 
-.a1 {
+.a1, .a3, .a5, .a7, .a9, .a11 {
     
-    color: yellow;
-    
-    
-}
-
-
-.a2 {
-    
-    color: green;
+    color: black;
     
     
 }
 
 
-.a3 {
+.a2, .a4, .a6, .a8, .a10, .a12 {
     
-    color: yellow;
+    color: black;
     
     
 }
@@ -36,11 +28,12 @@ p.p1 {
 }
 
 
-h1 {
 
-background-color: green;
-color: yellow;
+.hp1 {
+color: black;
 text-align: center;
+border: 5px solid black;
+margin-bottom: 70px;
 
 }
 
@@ -58,20 +51,37 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto;    
     grid-gap: 10px;
-    grid-auto-rows: 100px;
+    grid-auto-rows: 170px;
     /*align-items: center;*/
-    
-    }
+    border: 4px solid black;
+    padding: 2em;
+    margin-bottom: 30px;
+}
+
+
+.container-grid2 {
+
+    display: grid;
+    grid-template-columns: auto auto auto;    
+    grid-gap: 10px;
+    grid-auto-rows: 150px;
+    /*align-items: center;*/
+    border: 4px solid black;
+    padding: 2em;
+    margin-bottom: 30px;
+        
+}
 
 
 .sectie1 {
 
     grid-column: 1;
     grid-row: 1;
-    background-color: green;
-    color: yellow;
+    background-color: rgb(160, 98, 119);
+    color: black;
     text-align: center;
     font-size: 20px;
+    
 
 
 }
@@ -81,8 +91,8 @@ h2 {
 
     grid-column: 2;
     grid-row: 1;
-    background-color: yellow;
-    color: green;
+    background-color: rgb(155, 85, 96);
+    color: black;
     text-align: center;
     font-size: 20px;
 
@@ -93,8 +103,8 @@ h2 {
 
     grid-column: 3;
     grid-row: 1;
-    background-color: green;
-    color: yellow;
+    background-color: rgb(106, 37, 60);
+    color: black;
     text-align: center;
     font-size: 20px;
 }
@@ -104,8 +114,8 @@ h2 {
 
     grid-column: 1;
     grid-row: 2;
-    background-color: yellow;
-    color: green;
+    background-color: rgb(162, 130, 141);
+    color: black;
     text-align: center;
     font-size: 20px;
 
@@ -116,8 +126,8 @@ h2 {
 
     grid-column: 2;
     grid-row: 2;
-    background-color: green;
-    color: yellow;
+    background-color: rgba(204, 153, 170, 0.726);
+    color: black;
     text-align: center;
     font-size: 20px;
 }
@@ -127,8 +137,80 @@ h2 {
 
     grid-column: 3;
     grid-row: 2;
-    background-color: yellow;
-    color: green;
+    background-color: rgb(251, 116, 161);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.sectie7 {
+
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(184, 185, 87);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    
+
+
+}
+
+
+.sectie8 {
+
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(223, 223, 117);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.sectie9 {
+
+    grid-column: 3;
+    grid-row: 1;
+    background-color: rgb(189, 196, 94);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.sectie10 {
+
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(188, 188, 35);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.sectie11 {
+
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(186, 178, 33);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.sectie12 {
+
+    grid-column: 3;
+    grid-row: 2;
+    background-color: rgb(145, 145, 55);
+    color: black;
     text-align: center;
     font-size: 20px;
 
